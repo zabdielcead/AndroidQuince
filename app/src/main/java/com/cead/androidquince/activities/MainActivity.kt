@@ -14,6 +14,7 @@ import com.cead.androidquince.smodel.CityFind
 class MainActivity : AppCompatActivity() , IMainActivity{
     // servicios REST y patron de diseño MVP
     // sube loading con un dialog
+    //  se puede ajustar el loading al tamaño de la pantalla
 
     var editPais : EditText ? = null
     var btnFind  : Button ? = null
