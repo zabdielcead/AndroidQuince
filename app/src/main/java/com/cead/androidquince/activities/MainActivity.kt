@@ -12,7 +12,7 @@ import com.cead.androidquince.smodel.City
 import com.cead.androidquince.smodel.CityFind
 
 class MainActivity : AppCompatActivity() , IMainActivity{
-
+    // servicios REST y patron de diseño MVP
 
     var editPais : EditText ? = null
     var btnFind  : Button ? = null
